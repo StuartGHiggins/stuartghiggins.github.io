@@ -1,0 +1,211 @@
+<!doctype html><html lang=en-gb>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Biological Metamaterials for Influencing Cell Behaviour
+| Dr Stuart G. Higgins
+</title>
+<link rel=icon href=favicon.png>
+<style>html body{font-family:roboto,sans-serif;background-color:#fafaf8}:root{--accent:#0B9A9F;--border-width:0}</style>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400" rel=stylesheet>
+<link href="https://fonts.googleapis.com/css2?family=Alata" rel=stylesheet>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css crossorigin=anonymous>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin=anonymous>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css>
+<link rel=stylesheet href=../../css/main.css>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
+<script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script>
+<script>$(document).on('click',function(){$('.collapse').collapse('hide')})</script>
+<meta name=generator content="Hugo 0.91.2">
+<script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class=container>
+<div class=navbar-header>
+<a class="navbar-brand visible-xs" href=../../>Home</a>
+<button class=navbar-toggle data-target=.navbar-collapse data-toggle=collapse>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li>
+<a href=../../>
+<span>Home</span>
+</a>
+</li>
+<li>
+<a href=../../about/>
+<span>About</span>
+</a>
+</li>
+<li class=dropdown>
+<a href=../../research/ class=dropdown-toggle data-toggle=dropdown role=button aria-haspopup=true aria-expanded=false>Research <span class=caret></span></a>
+<ul class=dropdown-menu>
+<li>
+<a href=../../research/>
+<span>Overview</span>
+</a>
+</li>
+<li role=separator class=divider></li>
+<li class=dropdown-header>Current projects</li>
+<li>
+<a href=../../research/biological-metamaterials/>Biological Metamaterials</a>
+</li>
+<li>
+<a href=../../research/organic-bioelectronics/>Organic Bioelectronics</a>
+</li>
+<li>
+<a href=../../research/image-analysis/>Image Analysis</a>
+</li>
+<li role=separator class=divider></li>
+<li class=dropdown-header>Previous projects</li>
+<li>
+<a href=../../research/energy-harvesting/>Energy Harvesting</a>
+</li>
+<li>
+<a href=../../research/organic-transistors/>Organic Transistors</a>
+</li>
+<li>
+<a href=../../research/deceleration-beamline/>Deceleration Beamline</a>
+</li>
+</ul>
+</li>
+<li>
+<a href=../../teaching/>
+<span>Teaching</span>
+</a>
+</li>
+<li class=dropdown>
+<a href=../../research-culture/ class=dropdown-toggle data-toggle=dropdown role=button aria-haspopup=true aria-expanded=false>Research Culture <span class=caret></span></a>
+<ul class=dropdown-menu>
+<li>
+<a href=../../research-culture/>
+<span>Overview</span>
+</a>
+</li>
+<li role=separator class=divider></li>
+<li>
+<a href=../../research-culture/scientists-not-the-science/>Scientists not the Science</a>
+</li>
+<li>
+<a href=../../research-culture/electronic-laboratory-notebooks/>Electronic Laboratory Notebooks</a>
+</li>
+</ul>
+</li>
+<li class=dropdown>
+<a href=../../engagement/ class=dropdown-toggle data-toggle=dropdown role=button aria-haspopup=true aria-expanded=false>Engagement <span class=caret></span></a>
+<ul class=dropdown-menu>
+<li>
+<a href=../../engagement/>
+<span>Overview</span>
+</a>
+</li>
+<li role=separator class=divider></li>
+<li>
+<a href=../../engagement/super-science/>Science in the Supermarket</a>
+</li>
+<li>
+<a href=../../engagement/outreach/>Outreach</a>
+</li>
+<li>
+<a href=../../engagement/down-to-earth/>Down to Earth</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class=navbar-icon><a href=../../contact/><i class="fas fa-envelope"></i></a></li>
+<li class=navbar-icon><a href=https://twitter.com/StuartGHiggins><i class="fab fa-twitter"></i></a></li>
+<li class=navbar-icon><a href=https://www.linkedin.com/in/StuartGHiggins/><i class="fab fa-linkedin"></i></a></li>
+<li class=navbar-icon><a href=https://orcid.org/0000-0002-4653-5364><i class="fab fa-orcid"></i></a></li>
+<li class=navbar-icon><a href="https://scholar.google.com/citations?user=JZ3GRIAAAAAJ"><i class="ai ai-google-scholar-square"></i></a></li>
+<li class=navbar-icon><a href=https://scinotsci.com><i class="fas fa-podcast"></i></a></li>
+</ul>
+</div>
+</div>
+</nav>
+<main>
+<div class=single>
+<h2>Biological Metamaterials for Influencing Cell Behaviour</h2>
+<h3>Understanding the relationship between nanostructured surfaces and cellular response</h3>
+</div>
+<div align=start class=content><p>
+<figure>
+<img src=../../images/nanoneedles-image.png alt="Image of high-aspect-ratio nanostructures on a surface">
+<figcaption>An electron micrograph showing silicon nanostructured with high-aspect-ratio nanostructures.</figcaption>
+</figure>
+</p>
+<p>I use nanostructured surfaces to study cell response to different microenvironments. I work with high-aspect-ratio nanostructures. These are surfaces patterned with tall and spiky structures.</p>
+<p>I explore how varying design parameters such as the pitch and sharpness influences the response of different cell types. The aim is to both understand how the cell&ndash;material microenvironment influences behaviour, and to explore the structure-property relationships of biomaterials.</p>
+<p>I use microfabrication technologies, more commonly used to make electronic devices, to nanostructure the surface of different materials with well-defined patterns. I work with biology collaborators to culture cells on these surfaces and then analyse large quantities of microscopy images to understand cell responses.<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup></p>
+<h3 id=impact-of-high-aspect-ratio-nanostructured-surfaces-on-cells>Impact of high-aspect-ratio nanostructured surfaces on cells</h3>
+<p>
+<figure>
+<img src=../../images/nanoneedles-review.png alt="Illustrations of various ways high-aspect-ratio nanostructures interact with cells">
+<figcaption>Illustrations of different interfacing approaches of high-aspect-ratio nanostructures with cells.</figcaption>
+</figure>
+</p>
+<p>Cells typically change their shape and behaviour on nanostructured surfaces.<sup id=fnref:2><a href=#fn:2 class=footnote-ref role=doc-noteref>2</a></sup> Some can form highly elongated shapes, aligning to the underlying structures - a behaviour which can be useful in tissue engineering, where the aim is to recreate the patterns of cells found within tissues.</p>
+<p>Some cells contort around the sharp tips of the structures. These dramatic shape changes can be useful in drug-delivery, where the nanostructures can be coated with a particular molecule or drug, which is then brought into very close contact with the cell.</p>
+<p>The relationship between the size or shape of a nanostructure and quantifiable changes in a group of cells is less well understood. Do all cells behave the same? Does a single cell alone respond the same as a cell with many neighbours? This is where my research aims to provide answers. For example, in a recent study led by Dr Hyejeong Seong, we found that sharpness of the nanostructures had a direct effect on the shape and behaviour of human mesenchymal stem cells, an insight that influences how we design biomaterials moving forward.<sup id=fnref:3><a href=#fn:3 class=footnote-ref role=doc-noteref>3</a></sup></p>
+<p><a href=https://doi.org/10.1002/adma.201903862 target=_blank rel=noopener>Read our review on the applications and techniques for high-aspect-ratio nanostructures</a></p>
+<h3 id=applications-to-prokaryotic-cells>Applications to prokaryotic cells</h3>
+<p>
+<figure>
+<img src=../../images/nanowires-image.png alt="Electron micrograph showing bacteria on nanowire surfaces">
+<figcaption>Electron micrograph showing bacteria on a nanowire surface.</figcaption>
+</figure>
+</p>
+<p>Nanostructuring is also being explored to create antibacterial surfaces, physically disrupting the growth of bacteria, rather than using a chemical agent. This is inspired by nature - some species of cicadas have nanostructured wings <a href=https://www.chemistryworld.com/news/decoding-the-chemistry-behind-cicadas-bacteria-killing-wings/4011805.article target=_blank rel=noopener>that are thought to act as antibacterial surfaces</a>.</p>
+<p>I worked with Dr Michele Becce and Dr Anna Klöckner to explore how nanowires (an even tinier, denser version of nanoneedles) could be applied to bacteria such as <em>E. coli</em>. Fascinatingly, we found that in many cases, bacteria were able to survive on our nanostructures.</p>
+<p>This important negative result shows that simply adding nanostructures is not enough - that antibacterial behaviour most likely relies upon a combination of factors. We were also able to make several key recommendations about how to improve the assessment of anti-bacterial viability on nanostructured surfaces.<sup id=fnref:4><a href=#fn:4 class=footnote-ref role=doc-noteref>4</a></sup></p>
+<p><a href=https://doi.org/10.1039/D0TB02762F target=_blank rel=noopener>Read our key recommendations for improving bacterial-nanostructure interfacing experiment</a></p>
+<h3 id=understanding-fundamental-behaviours-of-nanoscale-structure>Understanding fundamental behaviours of nanoscale structure</h3>
+<p>
+<figure>
+<img src=../../images/simulations-enth.png alt="Illustration showing interaction of protein domain with model of curved cell membrane">
+<figcaption>Illustration of protein domain interacting with curved cell membrane.</figcaption>
+</figure>
+</p>
+<p>Computer modelling allows us to overcome the limitations of experiments by simulating nano-environments smaller than our current experimental tools allow us to probe.</p>
+<p>I worked with Dr Alexis Belessiotis-Richards as he explored the effects of nanoscale curvature on cell membranes. This work revealed how tiny distortions to a cell membrane can cause parts of proteins to bind to these regions - an important precursor to how materials are transported across the cell membrane.<sup id=fnref:5><a href=#fn:5 class=footnote-ref role=doc-noteref>5</a></sup></p>
+<p><a href=https://doi.org/10.1021/acsnano.0c05960 target=_blank rel=noopener>Read about the impact of nanoscale curvature on protein localisation</a></p>
+<section class=footnotes role=doc-endnotes>
+<hr>
+<ol>
+<li id=fn:1 role=doc-endnote>
+<p>Reprinted/adapted by permission from: Higgins SG, Becce M, Seong H, Stevens MM, <em>Nanoneedles and Nanostructured Surfaces for Studying Cell Interfacing</em>, 2020, 7th International Conference on the Development of Biomedical Engineering in Vietnam (BME7) by Vo Van Toi, Trung Quoc Le, Hoan Thanh Ngo, Thi-Hiep Nguyen © 2020. DOI: <a href=https://doi.org/10.1007/978-981-13-5859-3_37 target=_blank rel=noopener>10.1007/978-981-13-5859-3_37</a>&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
+</li>
+<li id=fn:2 role=doc-endnote>
+<p>Redrawn from: Higgins SG, Becce M, Belessiotis-Richards A, Seong H, Sero JE, Stevens MM, <em>High-Aspect-Ratio Nanostructured Surfaces as Biological Metamaterials</em>, 2020, Advanced Materials. DOI: <a href=https://doi.org/10.1002/adma.201903862 target=_blank rel=noopener>10.1002/adma.201903862</a>&#160;<a href=#fnref:2 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
+</li>
+<li id=fn:3 role=doc-endnote>
+<p>Seong H, Higgins SG, Penders J, Armstrong JPK, Crowder SW, Moore AC, Sero JE, Becce M, Stevens MM, <em>Size-Tunable Nanoneedle Arrays for Influencing Stem Cell Morphology, Gene Expression, and Nuclear Membrane Curvature</em>, 2020, ACS Nano. DOI: <a href=https://doi.org/10.1021/acsnano.9b08689 target=_blank rel=noopener>10.1021/acsnano.9b08689</a>&#160;<a href=#fnref:3 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
+</li>
+<li id=fn:4 role=doc-endnote>
+<p>Reproduced under terms of CC-BY license from: Becce M, Klöckner A, Higgins SG, Penders J, Hachim D, Bashor CJ, Edwards AM, Stevens MM, <em>Assessing the Impact of Silicon Nanowires on Bacterial Transformation and Viability of Escherichia Coli</em>, 2021, Journal of Materials Chemistry B. DOI: <a href=https://doi.org/10.1039/D0TB02762F target=_blank rel=noopener>10.1039/D0TB02762F</a>&#160;<a href=#fnref:4 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
+</li>
+<li id=fn:5 role=doc-endnote>
+<p>Adapted under terms of CC-BY license from: Belessiotis-Richards A, Higgins SG, Sansom MP, Alexander-Katz A, Stevens MM, <em>Coarse-Grained Simulations Suggest the Epsin N-Terminal Homology Domain Can Sense Membrane Curvature without Its Terminal Amphipathic Helix</em>, 2020, ACS Nano. DOI: <a href=https://doi.org/10.1021/acsnano.0c05960 target=_blank rel=noopener>10.1021/acsnano.0c05960</a>&#160;<a href=#fnref:5 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+</div>
+</main>
+<footer>
+<p class="copyright text-muted">Powered by <a href=https://gohugo.io>Hugo</a>, adapted from <a href=https://github.com/calintat/minimal>Minimal</a>.</p>
+</footer>
+</body>
+</html>
